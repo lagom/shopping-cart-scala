@@ -13,7 +13,7 @@ import scala.collection.immutable.Seq
   * stores the current shopping cart items and whether it's checked out.
   *
   * Event sourced entities are interacted with by sending them commands. This
-  * entity supports three commands, an [[UpdateItem]] crommand, which is used to
+  * entity supports three commands, an [[UpdateItem]] command, which is used to
   * update the quantity of an item in the cart, a [[Checkout]] command which is
   * used to set checkout the shopping cart, and a [[Get]] command, which is a read
   * only command which returns the current shopping cart state.
