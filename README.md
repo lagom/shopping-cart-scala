@@ -1,3 +1,5 @@
+This sample application is now maintained at <https://github.com/lagom/lagom-samples>.
+
 # Shopping Cart
 
 This sample application demonstrates a simple shopping cart built with Lagom. It contains two services, a shopping cart service, for managing shopping carts, and an inventory service, for tracking inventory.
